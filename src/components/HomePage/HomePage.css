@@ -9,6 +9,7 @@
 }
 
 .about-text {
+  padding-top: 370px;
   color: white;
 }
 
@@ -18,16 +19,26 @@
   align-items: center; /* Center content vertically */
 }
 
-@media screen and (max-width: 740px) {
-    .about {
-        background: linear-gradient(
-          to right,
-          #212529 0%,
-          #212529 50%,
-          #212529 50%,
-          #212529 100%
-        );
-      }
-  
+.card {
+  background-color: rgb(233, 233, 233);
+}
 
+@media screen and (max-width: 740px) {
+  .row {
+    flex-direction: column;
   }
+
+  .about {
+    background: linear-gradient(to right, #212529 0%, #212529 100%);
+  }
+
+ .about-text{
+  padding-top: 250px;
+  width: 100%;
+ }
+ /* Additional styles to ensure full-width cards */
+ .carousel {
+   padding-top: 100px;
+   width: 100%; /* Ensure full width on small screens */
+ }
+}

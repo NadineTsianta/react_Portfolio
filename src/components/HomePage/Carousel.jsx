@@ -9,7 +9,7 @@ const CardCarousel = () => {
         <div className="carousel-item active">
           <div className="card">
             <img
-              src="../../assets/FlavorFusion.png"
+              src="./src/assets/FlavorFusion.png"
               className="card-img-top"
               alt="Card 1"
             />
@@ -26,7 +26,7 @@ const CardCarousel = () => {
         <div className="carousel-item">
           <div className="card">
             <img
-              src="../../assets/Bootstrap-Portfolio.png"
+              src="./src/assets/Bootstrap-Portfolio.png"
               className="card-img-top"
               alt="Card 2"
             />
@@ -42,7 +42,7 @@ const CardCarousel = () => {
         <div className="carousel-item active">
           <div className="card">
             <img
-              src="../../assets/Password-generator.png"
+              src="./src/assets/Password-generator.png"
               className="card-img-top"
               alt="Card 3"
             />
@@ -62,21 +62,21 @@ const CardCarousel = () => {
            
       </div>
       <button
-        className="carousel-control-prev"
+        className="carousel-control-prev "
         type="button"
         data-bs-target="#cardCarousel"
         data-bs-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        className="carousel-control-next "
         type="button"
         data-bs-target="#cardCarousel"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
     </div>

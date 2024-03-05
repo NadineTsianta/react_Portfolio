@@ -5,5 +5,17 @@
     min-height: 100vh; 
 
 }
+.scaffolder-sidebar{
+display: flex;
+align-items: flex-start;
 
+};
 
+.social-card {
+    border-radius: 1rem;
+    border: 2rem;
+    padding: 2.5rem;
+    text-align: start;
+    cursor: pointer;
+
+}

@@ -1,0 +1,10 @@
+.nav-item{
+    cursor: pointer;
+}
+
+
+.nav-item:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}

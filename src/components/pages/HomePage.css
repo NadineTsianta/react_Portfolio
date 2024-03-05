@@ -16,7 +16,7 @@
 .full-height {
   min-height: 100vh; /* Set minimum height to cover the entire viewport height */
   display: flex;
-  align-items: center; /* Center content vertically */
+  align-items: center; 
 }
 
 .card {
@@ -24,21 +24,20 @@
 }
 
 @media screen and (max-width: 740px) {
-  .row {
-    flex-direction: column;
-  }
 
   .about {
     background: linear-gradient(to right, #212529 0%, #212529 100%);
+    width: 100%;
   }
 
  .about-text{
-  padding-top: 250px;
+  display: flex;
+
   width: 100%;
  }
  /* Additional styles to ensure full-width cards */
  .carousel {
-   padding-top: 100px;
-   width: 100%; /* Ensure full width on small screens */
+   display: none;
  }
+
 }

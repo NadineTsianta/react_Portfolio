@@ -1,9 +1,9 @@
-.background {
-animation: fade 0.9 ease-in;
+.contact-page{
+    background-color:  #212529;
+    color: white;
+    display: flex;
+    min-height: 100vh; 
+
 }
 
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-}
+

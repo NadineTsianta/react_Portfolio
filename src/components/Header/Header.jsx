@@ -1,7 +1,9 @@
+
+
 function NavBar() {
   return (
     <>
-      <nav className="navbar bg-body-tertiary">
+      <nav className="navbar bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
@@ -11,11 +13,11 @@ function NavBar() {
               
               className="d-inline-block align-text-top"
             />
-              {/* Nadine Tsianta */}
+              
           </a>
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-light"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
@@ -25,14 +27,14 @@ function NavBar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="offcanvas offcanvas-end"
+            className="offcanvas offcanvas-top"
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                Nadine Tsianta
               </h5>
               <button
                 type="button"
@@ -44,12 +46,12 @@ function NavBar() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="#page" >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#projects">
                     Projects
                   </a>
                 </li>
@@ -58,8 +60,14 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      
     </>
   );
 }
 
+
+
+
 export default NavBar;
+
+

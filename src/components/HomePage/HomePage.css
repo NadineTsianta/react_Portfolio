@@ -1,0 +1,33 @@
+.about {
+  background: linear-gradient(
+    to right,
+    #212529 0%,
+    #212529 50%,
+    rgb(212, 212, 212) 50%,
+    rgb(212, 212, 212) 100%
+  );
+}
+
+.about-text {
+  color: white;
+}
+
+.full-height {
+  min-height: 100vh; /* Set minimum height to cover the entire viewport height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+@media screen and (max-width: 740px) {
+    .about {
+        background: linear-gradient(
+          to right,
+          #212529 0%,
+          #212529 50%,
+          #212529 50%,
+          #212529 100%
+        );
+      }
+  
+
+  }

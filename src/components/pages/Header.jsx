@@ -1,4 +1,5 @@
-
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -9,11 +10,9 @@ function NavBar() {
             <img
               src="./src/assets/Logo-Abstract.png"
               alt="Logo"
-              width="48"           
-              
+              width="48"
               className="d-inline-block align-text-top"
             />
-              
           </a>
 
           <button
@@ -46,28 +45,47 @@ function NavBar() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#page" >
+                  <NavLink
+                    to="/"
+                    end
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
+
                 <li className="nav-item">
-                  <a className="nav-link" href="#projects">
+                  <NavLink
+                    to="project"
+                    end
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
                     Projects
-                  </a>
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    to="contact"
+                    end
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-      
     </>
   );
 }
 
-
-
-
 export default NavBar;
-
-

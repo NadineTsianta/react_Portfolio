@@ -1,18 +1,19 @@
 import React from "react";
 import projects from "./Project-list";
 
+
 const ProjectEl = () => {
   const imageHeight = "280px"; // Set the desired height for the images
 
   return (
-    <div className="container-fluid" style={{ overflowY: "scroll", height: "100vh", paddingTop: "15rem" }}>
+    <div className="container-fluid" style={{ overflowY: "scroll", height: "100vh", paddingTop: "55px" }}>
       <div className="row d-flex justify-content-center align-items-center">
         {projects.map((project, index) => (
           <div
             key={index}
             className="col-lg-4 col-md-6 mb-4"
           >
-            <div className={`card ${index === 0 ? "active" : ""}`} style={{ height: "50vh" }}>
+            <div className={`card ${index === 0 ? "active" : ""}`} >
               <img
                 src={project.image}
                 className="card-img-top"

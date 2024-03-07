@@ -27,17 +27,22 @@
 
   .about {
     background: linear-gradient(to right, #212529 0%, #212529 100%);
-    width: 100%;
+  
+  }
+  .col-6 {
+    width: 100%!important;
   }
 
  .about-text{
+  padding-top: 80px;
   display: flex;
-
   width: 100%;
  }
- /* Additional styles to ensure full-width cards */
- .carousel {
-   display: none;
+ .about p{
+  padding-top: 50px;
  }
-
+ /* Additional styles to ensure full-width cards */
+.carousel {
+  display: none;
+}
 }

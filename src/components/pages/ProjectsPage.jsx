@@ -26,7 +26,7 @@ const ProjectEl = () => {
                 <a href={project.link} className="btn btn-light">
                   Visit
                 </a>
-                <a href={project.githublink} className="btn btn-light">
+                <a href={project.githublink} className="btn btn-light" style={{margin:"10px"}}>
                   Github link
                 </a>               
 

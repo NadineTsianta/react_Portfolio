@@ -13,7 +13,7 @@ const ProjectEl = () => {
             key={index}
             className="col-lg-4 col-md-6 mb-4"
           >
-            <div className={`card ${index === 0 ? "active" : ""}`} >
+            <div className={`card ${index === 0 ? "active" : ""} bg-dark text-light`} >
               <img
                 src={project.image}
                 className="card-img-top"
@@ -23,9 +23,13 @@ const ProjectEl = () => {
               <div className="card-body" style={{ height: `calc(50% - ${imageHeight})` }}>
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
-                <a href={project.link} className="btn btn-dark">
+                <a href={project.link} className="btn btn-light">
                   Visit
                 </a>
+                <a href={project.githublink} className="btn btn-light">
+                  Github link
+                </a>               
+
               </div>
             </div>
           </div>

@@ -46,13 +46,13 @@ For changes, please open an issue first to discuss what you would like to chaneg
 
 ## Features
 Full screen screenshots
-![HomePage](./src/assets/HomePage-fs.png)
-![ProjectsPage](./src/assets/projects-cards-fs.png)
-![ContactPage](./src/assets/contact-fs.png)
+![HomePage](./public/HomePage-fs.png)
+![ProjectsPage](./public/projects-cards-fs.png)
+![ContactPage](./public/contact-fs.png)
 
 Mobile Screen screenshots
 
-![HomePage](./src/assets/home-sm.png)
-![PojectsPage](./src/assets/projects-cards-sm.png)
-![ContactPage](./src/assets/contact-sm.png)
+![HomePage](./public/home-sm.png)
+![PojectsPage](./public/projects-cards-sm.png)
+![ContactPage](./public/contact-sm.png)
 

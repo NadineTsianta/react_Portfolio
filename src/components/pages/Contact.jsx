@@ -21,6 +21,12 @@ const ContactEl = () => {
    
   };
 
+  const handleDownload = () => {
+    
+    const pdfPath = process.env.PUBLIC_URL + "../../../N.Tsianta_CV_.pdf";
+    window.open(pdfPath, "_blank");
+  };
+
   return (
     <div className="container mt-5 border p-4 text-left">
       <h2>Contact Me</h2>
@@ -68,6 +74,10 @@ const ContactEl = () => {
           Submit
         </button>
       </form>
+
+      <button onClick={handleDownload} className="btn btn-dark">
+        Download CV
+      </button>
     </div>
   );
 };

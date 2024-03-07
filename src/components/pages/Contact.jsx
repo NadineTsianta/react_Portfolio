@@ -26,13 +26,13 @@ const ContactEl = () => {
       <h2>Contact Me</h2>
       <div className="card-header mb-4" style={{alignItems: "flex-start", margin: " 10px"}}>
         <a href="https://github.com/NadineTsianta" target="_blank" >
-          <img src="../src/assets/square-github.svg" alt="github" className="contact-icon" style={{maxWidth: "30px"}}/>
+          <img src="../public/square-github.svg" alt="github" className="contact-icon" style={{maxWidth: "30px"}}/>
         Github</a>
         <a href="https://www.linkedin.com/in/nadine-tsianta/" target="_blank" >
-          <img src="../src/assets/linkedin (1).svg" alt="LinkedIn" className="contact-icon"style={{maxWidth: "30px"}}/>
+          <img src="../public/linkedin (1).svg" alt="LinkedIn" className="contact-icon"style={{maxWidth: "30px"}}/>
         LinkedIn</a>
         <a href="#" target="_blank" >
-          <img src="../src/assets/envelope-solid.svg" alt="mail" className="contact-icon" style={{maxWidth: "30px"}}/>
+          <img src="../public/envelope-solid.svg" alt="mail" className="contact-icon" style={{maxWidth: "30px"}}/>
         Contact</a>
       </div>
       <form onSubmit={handleSubmit} className="mx-auto" style={{ maxWidth: "400px" }}>

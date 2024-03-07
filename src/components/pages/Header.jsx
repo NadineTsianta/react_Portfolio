@@ -9,7 +9,7 @@ function NavBar() {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
-              src="./src/assets/Logo-Abstract.png"
+              src="./public/Logo-Abstract.png"
               alt="Logo"
               width="48"
               className="d-inline-block align-text-top"
